@@ -1,0 +1,8 @@
+name = input("What is your name?")
+hobby = input("What is your hobby?")
+
+print (f"so what you want to say is that your name is {name}and your hobby is {hobby}")
+print (" you must have a very bright future")
+
+favourite_team = input("what is your favourite team?")
+print (f"just know that barcelona is better than {favourite_team}")

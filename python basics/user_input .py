@@ -3,6 +3,6 @@
 
 #program to get user input
 
-Name = input("What is your name")
+name = input("What is your name?")
 
-print (name)
+print (f"my name is{name}")
