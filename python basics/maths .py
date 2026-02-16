@@ -1,7 +1,7 @@
 #Name : Wanjey Gikenye
 #Date : 13/02/2026
 #program to do mathematical operations
-number = 16.79
+number = -16.79
 
 import math
 print(abs(number))
@@ -12,9 +12,9 @@ angle_degrees = angle_radians / 180
 
 x=1
 y= math.degrees(x)
-print(math.cos(angle_radians))
-print(math.sin(angle_radians))
-print(math.tan(angle_radians))
+print(math.cos(angle_degrees))
+print(math.sin(angle_degrees))
+print(math.tan(angle_degrees))
 
 
 

@@ -6,4 +6,4 @@ first_number  = 12
 second_number = 86
 
 sum_numbers = first_number + second_number
-print(sum_numbers)
+print("the sum of the numbers is : ", sum_numbers)

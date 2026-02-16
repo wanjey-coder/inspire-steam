@@ -1,0 +1,22 @@
+#Wanjey Gikenye
+#14/02/2026
+#Squareroots of numbers
+
+import math
+number = int(input("Enter the number:"))
+square_root = math.sqrt(number)
+print(f"{square_root}")
+
+
+sentence = "Barcelona are going to perform an amazing comeback in the second leg"
+lower_case = sentence.lower()
+print("The sentence in lower case is : ", lower_case)
+
+upper_case = lower_case.upper()
+print("The sentence in upper case is: ", upper_case)
+
+sentence_3 = "barcelona are going to perform an amazing comeback in the second leg"
+new_sentence = sentence_3.replace(" ","_")
+print(new_sentence)
+splitting = new_sentence.split("a")
+print("the split sentence is:", splitting [2])
