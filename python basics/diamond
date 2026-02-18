@@ -1,0 +1,9 @@
+#Name : Wanjey Gikenye
+#Date : 17/02/2026
+#program to make a triangle and a diamond
+
+print("       *       ")
+print("      ***      ")
+print("     *****     ")
+print("   *******     ")
+print("  *********    "

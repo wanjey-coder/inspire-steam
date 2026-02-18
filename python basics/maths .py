@@ -6,15 +6,21 @@ number = -16.79
 import math
 print(abs(number))
 
+angle_degrees = 60
+angle_radians = math.radians(angle_degrees)
 
-angle_radians = 60
-angle_degrees = angle_radians / 180
 
 x=1
 y= math.degrees(x)
-print(math.cos(angle_degrees))
-print(math.sin(angle_degrees))
-print(math.tan(angle_degrees))
+
+from tabulate import tabulate
+cos_val = (math.cos(angle_radians))
+sin_val = (math.sin(angle_radians))
+tan_val = (math.tan(angle_radians))
+
+data = [[angle_degrees, cos_val, sin_val, tan_val]]
+
+print(tabulate(data,headers=["angle","cos","sin","tan"],tablefmt="grid"))
 
 
 

@@ -1,0 +1,23 @@
+# Wanjey Gikenye
+#16/2/2026
+#program to format the output in python
+
+name = "Wanjey Gikenye" #name
+weight = 60 #weight in kgs
+fav_team = "Barcelona"  
+height = "5'8" 
+
+#1. Format using print f (f"{})
+print(f"My name is {name} and i weigh {weight} kgs")
+
+#2. Using f string
+msg = f"My name is {name} and i support {fav_team}"
+print(msg)
+
+#3. Using {} and .format()
+print("my name is {0} and i am {1} feet tall".format(name,height))
+
+#Using output specifiers 
+import math
+print("The value of pi is approximately 5.3%")
+print(I supposr %s)
