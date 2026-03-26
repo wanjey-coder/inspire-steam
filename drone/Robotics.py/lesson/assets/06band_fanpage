@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sigmaboyzz Fanpage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #1a1a1a, #333);
+      color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #000;
+      text-align: center;
+      padding: 2rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #ffcc00;
+      margin: 0;
+    }
+    nav {
+      background-color: #222;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+    nav a {
+      color: #ffcc00;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    section {
+      padding: 2rem;
+      text-align: center;
+    }
+    .band-photo {
+      max-width: 80%;
+      border: 5px solid #ffcc00;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #000;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Sigmaboyzz Fanpage</h1>
+    <p>The official hub for fans of Sigmaboyzz!</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#music">Music</a>
+    <a href="#events">Events</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Sigmaboyzz</h2>
+    <p>Sigmaboyzz is a band that blends energy, creativity, and passion into every performance. Our mission is to bring people together through music and unforgettable vibes.</p>
+    <img src="band-photo.jpg" alt="Sigmaboyzz Band Photo" class="band-photo">
+  </section>
+
+  <section id="music">
+    <h2>Our Music</h2>
+    <p>Check out our latest tracks and albums. Stay tuned for more releases!</p>
+    <!-- You can embed a music player here -->
+  </section>
+
+  <section id="events">
+    <h2>Upcoming Events</h2>
+    <p>Catch us live on stage soon! Tour dates will be announced here.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Want to reach out? Email us at <a href="mailto:sigmaboyzz@music.com">sigmaboyzz@music.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Sigmaboyzz Fanpage. All rights reserved.</p>
+  </footer>
+</body>
+</html>
